@@ -13,7 +13,7 @@ const Dashboard = () => {
       <div className="grid gap-4 grid-cols-1  lg:grid-cols-7 mt-8">
         <Card className="lg:col-span-4">
           <CardHeader>
-            <CardTitle>Overview</CardTitle>
+            <CardTitle>Annual Sales 2023</CardTitle>
           </CardHeader>
           <CardContent className="pl-6">
             <Overview data={salesChart} />
@@ -21,7 +21,7 @@ const Dashboard = () => {
         </Card>
         <Card className="lg:col-span-3">
           <CardHeader>
-            <CardTitle>To-do's</CardTitle>
+            <CardTitle>To-do&apos;s</CardTitle>
           </CardHeader>
           <CardContent className="pl-2">
             <TodoList todos={todos} toggleTodo={handleToggleTodo} />
