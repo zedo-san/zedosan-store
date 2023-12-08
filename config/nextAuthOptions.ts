@@ -11,7 +11,6 @@ export const nextAuthOptions: NextAuthOptions = {
       type: "credentials",
       credentials: {},
       async authorize(credentials) {
-        console.log({ credentials });
         // eslint-disable-next-line no-async-promise-executor
         return new Promise(async (resolve, reject) => {
           try {
@@ -46,14 +45,12 @@ export const nextAuthOptions: NextAuthOptions = {
       return url;
     },
     async jwt({ token, user }) {
-      console.log(token, user);
       if (user) {
         return { ...user };
       }
       return token;
     },
     async session({ session, token }) {
-      console.log(token, session);
       if (session.user) {
         session.user.email = token.email as string;
         session.user.name = token.name as string;
