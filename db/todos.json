@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "text": "Restock inventory of popular product A",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "text": "Update product prices for seasonal sale",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "text": "Add new products to the online store",
+    "completed": false
+  },
+  {
+    "id": 4,
+    "text": "Review and respond to customer inquiries",
+    "completed": false
+  },
+  {
+    "id": 5,
+    "text": "Optimize product listings for better visibility",
+    "completed": false
+  }
+]

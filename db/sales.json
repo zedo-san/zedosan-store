@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Jan",
+    "total": 3268
+  },
+  {
+    "name": "Feb",
+    "total": 2897
+  },
+  {
+    "name": "Mar",
+    "total": 4321
+  },
+  {
+    "name": "Apr",
+    "total": 2367
+  },
+  {
+    "name": "May",
+    "total": 4145
+  },
+  {
+    "name": "Jun",
+    "total": 1532
+  },
+  {
+    "name": "Jul",
+    "total": 4876
+  },
+  {
+    "name": "Aug",
+    "total": 2989
+  },
+  {
+    "name": "Sep",
+    "total": 3421
+  },
+  {
+    "name": "Oct",
+    "total": 4678
+  },
+  {
+    "name": "Nov",
+    "total": 2243
+  },
+  {
+    "name": "Dec",
+    "total": 1774
+  }
+]
